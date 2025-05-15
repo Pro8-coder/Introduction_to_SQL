@@ -4,4 +4,5 @@
 Исходная таблица talons:
 "
 
-
+DELETE FROM talons
+WHERE doctor_num = 3;

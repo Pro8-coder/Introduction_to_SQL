@@ -5,4 +5,5 @@ CONCAT( 'г. Москва, ', area_address)
  Данные в таблице med_area:
 "
 
-
+UPDATE med_area
+SET area_address = CONCAT( 'г. Москва, ', area_address);
