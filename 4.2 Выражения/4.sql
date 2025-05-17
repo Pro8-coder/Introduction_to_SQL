@@ -6,4 +6,6 @@
 Исходная таблица talons:
 "
 
-
+UPDATE talons
+SET visit_amount = ROUND(visit_amount * 0.9, 2)
+WHERE doctor_num = 3;

@@ -8,4 +8,9 @@
 получить текущий год и вычесть год рождения
 "
 
-
+SELECT 
+    full_name, 
+    oms_num, 
+    YEAR(CURDATE()) - YEAR(birth_date) AS age 
+FROM 
+    patients;

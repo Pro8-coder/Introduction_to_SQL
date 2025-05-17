@@ -4,4 +4,9 @@
 Исходная таблица doctors:
 "
 
-
+SELECT 
+    doctor_num, 
+    doctor_name, 
+    IF(spec IS NULL, "Не заполнена", spec) AS spec 
+FROM 
+    doctors;

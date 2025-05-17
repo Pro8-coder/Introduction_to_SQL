@@ -4,4 +4,4 @@
 Исходная таблица doctors:
 "
 
-
+SELECT UPPER(doctor_name) AS up_full_name FROM doctors;
