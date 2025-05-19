@@ -7,4 +7,6 @@
 Исходная таблица books_in_use:
 "
 
-
+SELECT book_author, COUNT(*) AS books_count 
+FROM books 
+GROUP BY book_author;
